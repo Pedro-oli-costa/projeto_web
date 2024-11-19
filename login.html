@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css#">
+    <script src="js/script.js"></script>
+    <title>login</title>
+</head>
+<body>
+
+    
+    <header>
+        <div id="logo">
+            <img src="imagem/surf.png" alt="prancha e sol " width="90px" height="90px">
+            <h1>Life and Surf</h1>
+            <h2 class="subtitulo">login</h2>
+        </div>
+    </header>
+
+    
+    <nav>   
+        <ul class="menu">
+          <li class="mn"><a href="index.html"><b>Homepage</b></a></li>
+          <li class="mn"><a href="quem_somos.html"><b>Quem somos?</b></a></li>
+          <li class="mn"><a href="serviços.html"><b>Serviços</b></a></li>
+          <li class="mn" ><a href="nossas_lojas.html"><b>Nossas lojas</b></a></li>
+          <li class="mn"><a href="produtos.html"><b>Produtos/Carrinho</b></a></li>
+          <li class="mn"><a href="login.html"><b>Login/Fale conosco</b></a></li>
+        </ul>
+    </nav>
+
+
+    <form action="index.php" autocomplete="off">
+        <h1>Login</h1>
+        <p class="login"> <label for="iNome">Nome: </label>
+            <input type="text" name="Nome" id="iNome"></p>
+
+        <p class="login"><label for="isobrenome">Sobrenaome:</label>
+             <input type="text" name="Sobrenaome" id="isobrenome"></p>
+
+        <p class="login"><label for="Iemail">Email</label>
+            <input type="email" name="email" id="Iemail"></p>
+    
+        <p class="login"><label for="idate">data de nascimento</label>
+            <input type="date" name="date" id="idate"></p>
+    
+        <p class="login"><label for="isenhaf">senha</label>
+        <input type="password" name="senha" id="isenha"></p>
+            
+        <button id="BTlg"  type="submit" onclick="formularioenviado()">Enviar</button value="Enviar">
+
+        
+    </form>
+
+    <form action="index.php" autocomplete="off"> 
+        <div id="">
+        <h1>Fale conosco </h1>
+        <p class="login"><label for="Fale">Deixe sua mensagem aqui : </label></p>
+        <textarea  name="Fale conosco" id="reclame" placeholder="Digite sua mensagem"></textarea>
+        <button id="BtFL"  type="submit" onclick="formularioenviado()">Enviar</button value="Enviar">
+        </div>
+    </form>
+
+
+   
+
+
+</body>
+</html>

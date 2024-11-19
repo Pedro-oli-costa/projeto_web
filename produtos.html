@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/script.js"></script>
+    <title>Produtos</title>
+</head>
+<body>
+    <header>
+        <div id="logo">
+        <img src="imagem/surf.png" alt="prancha e sol" width="90px" height="90px"> 
+        <link rel="stylesheet" href="css/style.css#">
+        <h1>Life and Surf</h1>
+        <h2 class="subtitulo">Produtos/Carrinho</h2>
+        </div>
+    </header>
+ 
+
+
+    <nav>   
+        <ul class="menu">
+          <li class="mn"><a href="index.html"><b>Homepage</b></a></li>  
+          <li class="mn"><a href="quem_somos.html"><b>Quem somos?</b></a></li>
+          <li class="mn"><a href="serviços.html"><b>Serviços</b></a></li>
+          <li class="mn" ><a href="nossas_lojas.html"><b>Nossas lojas</b></a></li>
+          <li class="mn"><a href="produtos.html"><b>Produtos/Carrinho</b></a></li>
+          <li class="mn"><a href="login.html"><b>Login/Fale conosco</b></a></li>
+        </ul>
+    </nav>
+
+  
+    
+    
+    <h2 id="pd">Produtos</h2>
+
+<ul id="listaDprod">
+
+    <li id="Lista" >
+    <section id="camisa">
+            <div class="produto">
+                <img   src="imagem/WhatsApp Image 2024-09-18 at 12.08.40.jpeg" alt="camisa" width="180px" height="180px">  
+                <h3>Camisa Life and Surf</h3>
+                <p class="preço">R$100,00</p>
+                <button class="bt" onclick="addCarrinho('Camisa Life and Surf', 100)">Adicionar ao carrinho</button>
+            </div>
+    </section>
+    </li>
+
+    <li id="Lista">
+    <section id="prancha">
+            <div class="produto"> 
+                <img src="imagem/WhatsApp Image 2024-09-18 at 16.20.26.jpeg" alt="prancha" width="180px" height="180px">
+                <h3>Prancha Life and Surf</h3>
+                <p class="preço">R$800,00</p>
+                <button class="bt" onclick="addCarrinho('Prancha Life and Surf',800)">Adicionar ao carrinho</button>
+            </div>
+    </section>
+    </li>
+</ul>
+
+
+<section id="estiloDocarrinho">
+<h2 id="carrinhoDecompras">Carrinho</h2>
+<ul id="carrinho"></ul>
+<p id="total">Total: R$0,00</p>
+<button >Finalizar</butto>
+</section>
+
+
+</body>
+</html>
